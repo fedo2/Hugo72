@@ -25,7 +25,10 @@
         </thead>
         <tbody>
           {{ range .Site.Data.data.users }}
-          <tr>
+          <tr {{ if eq .Prijde "Ano" }} class='green'
+              {{ else if eq .Prijde "Ne" }} class='red'
+              {{ else }} class='gray'
+              {{ end }}>
             <td>{{ .Jmeno }}</td>
             <td>{{ .email }}</td>
             <td>{{ .Prijde }}</td>
