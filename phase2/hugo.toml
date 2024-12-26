@@ -1,0 +1,5 @@
+baseURL = ''
+languageCode = 'cs'
+title = ''
+
+disableKinds = ["taxonomy", "sitemap", "RSS"]

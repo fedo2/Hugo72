@@ -1,0 +1,141 @@
+{
+  "info": {
+    "lastUpdate": "23.12.2024 22.29.05",
+    "nadpis": "Uživatelé a jejich účast na setkání",
+    "zprava": "Kdo ještě neodpověděl, ať tak učiní",
+    "pocetZaznamu": 59,
+    "pocetAno": 23
+  },
+  "users": [
+    {
+      "Jmeno": "Novák Jirka",
+      "email": "jiri.novak@example.cz",
+      "Prijde": "Ano"
+    },
+    {
+      "Jmeno": "Borská Jana",
+      "email": "jborska@example.cz",
+      "Prijde": ""
+    },
+    {
+      "Jmeno": "Zlatohlav Jiří",
+      "email": "zlatohlav.j@example.cz",
+      "Prijde": "Ne"
+    },
+    {
+      "Jmeno": "Brumbál Jarda",
+      "email": "jaroslav.brum@example.cz",
+      "Prijde": "Ne"
+    },
+    {
+      "Jmeno": "Loktusák Karel",
+      "email": "karel@example.cz",
+      "Prijde": ""
+    },
+    {
+      "Jmeno": "Petr Petr",
+      "email": "ppetr@example.cz",
+      "Prijde": "Ano"
+    },
+    {
+      "Jmeno": "Novotný Pavel",
+      "email": "pavel.novotny@example.cz",
+      "Prijde": "Ano"
+    },
+    {
+      "Jmeno": "Svoboda Martin",
+      "email": "martin.svoboda@example.cz",
+      "Prijde": "Ne"
+    },
+    {
+      "Jmeno": "Nováková Petra",
+      "email": "petra.novakova@example.cz",
+      "Prijde": ""
+    },
+    {
+      "Jmeno": "Dvořák Jan",
+      "email": "jan.dvorak@example.cz",
+      "Prijde": "Ano"
+    },
+    {
+      "Jmeno": "Černý Tomáš",
+      "email": "tomas.cerny@example.cz",
+      "Prijde": "Ne"
+    },
+    {
+      "Jmeno": "Procházka Eva",
+      "email": "eva.prochazka@example.cz",
+      "Prijde": ""
+    },
+    {
+      "Jmeno": "Kučera Lukáš",
+      "email": "lukas.kucera@example.cz",
+      "Prijde": "Ano"
+    },
+    {
+      "Jmeno": "Veselý Petr",
+      "email": "petr.vesely@example.cz",
+      "Prijde": "Ne"
+    },
+    {
+      "Jmeno": "Horáková Jana",
+      "email": "jana.horakova@example.cz",
+      "Prijde": ""
+    },
+    {
+      "Jmeno": "Němec Karel",
+      "email": "karel.nemec@example.cz",
+      "Prijde": "Ano"
+    },
+    {
+      "Jmeno": "Marek Jiří",
+      "email": "jiri.marek@example.cz",
+      "Prijde": "Ne"
+    },
+    {
+      "Jmeno": "Pospíšilová Anna",
+      "email": "anna.pospisilova@example.cz",
+      "Prijde": ""
+    },
+    {
+      "Jmeno": "Hájek Tomáš",
+      "email": "tomas.hajek@example.cz",
+      "Prijde": "Ano"
+    },
+    {
+      "Jmeno": "Králová Eva",
+      "email": "eva.kralova@example.cz",
+      "Prijde": "Ne"
+    },
+    {
+      "Jmeno": "Jelínek Pavel",
+      "email": "pavel.jelinek@example.cz",
+      "Prijde": ""
+    },
+    {
+      "Jmeno": "Růžička Martin",
+      "email": "martin.ruzicka@example.cz",
+      "Prijde": "Ano"
+    },
+    {
+      "Jmeno": "Benešová Jana",
+      "email": "jana.benesova@example.cz",
+      "Prijde": "Ne"
+    },
+    {
+      "Jmeno": "Fiala Tomáš",
+      "email": "tomas.fiala@example.cz",
+      "Prijde": ""
+    },
+    {
+      "Jmeno": "Sedláček Petr",
+      "email": "petr.sedlacek@example.cz",
+      "Prijde": "Ano"
+    },
+    {
+      "Jmeno": "Doležalová Eva",
+      "email": "eva.dolezalova@example.cz",
+      "Prijde": "Ne"
+    }
+  ]
+}
