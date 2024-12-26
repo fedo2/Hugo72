@@ -27,7 +27,7 @@
           {{ range .Site.Data.data.users }}
           <tr>
             <td>{{ .Jmeno }}</td>
-            <td><a href="mailto:{{ .email }}">{{ .email }}</a></td>
+            <td>{{ .email }}</td>
             <td>{{ .Prijde }}</td>
           </tr>
           {{ end }}

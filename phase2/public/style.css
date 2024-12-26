@@ -1,3 +1,16 @@
+@charset "UTF-8";
+.green {
+  background-color: #d4edda;
+  /* světle zelená */ }
+
+.red {
+  background-color: #f8d7da;
+  /* světle červená */ }
+
+.gray {
+  background-color: #e2e3e5;
+  /* světle šedá */ }
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -14,10 +27,13 @@ table {
   margin: 20px auto;
   border-collapse: collapse; }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid #ddd; }
 
-th, td {
+th,
+td {
   padding: 10px;
   text-align: left; }
 
