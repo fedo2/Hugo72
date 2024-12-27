@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ .Site.Title }}</title>
+    {{ $styles := resources.Get "style.scss" | css.Sass }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink | strings.TrimPrefix `/` }}" />
+  </head>
+  <body>
+    <header>
+      <h1>{{ .Site.Data.data.info.nadpis }}</h1>
+      <p>{{ .Site.Data.data.info.zprava }}</p>
+      <p>Počet záznamů: {{ .Site.Data.data.info.pocetZaznamu }}</p>
+      <p>Počet "Ano": {{ .Site.Data.data.info.pocetAno }}</p>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Jméno</th>
+            <th>Email</th>
+            <th>Přijde</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range .Site.Data.data.users }}
+          <tr {{- if eq .Prijde "Ano" }} class='green'
+              {{- else if eq .Prijde "Ne" }} class='red'
+              {{- else }} class='gray'
+              {{- end }}>
+            <td>{{ .Jmeno }}</td>
+            <td>{{ .email }}</td>
+            <td>{{ .Prijde }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
